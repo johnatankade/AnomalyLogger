@@ -1,0 +1,111 @@
+--------------------------------------------------------
+Test Session: 019-A
+Environment: Sandbox / Build v0.9.8
+Tester: J. Kade
+Date: 2035-02-08
+--------------------------------------------------------
+
+[00:00:01] Initializing NPC behavior test...
+[00:00:07] NPC_ID: 1023 spawned in Sector_07 (market district)
+[00:00:12] Assigned task: idle_animation loop + vendor dialogue
+[00:03:27] NPC executed dialogue pattern 23b correctly.
+[00:04:03] Pathfinding check OK.
+[00:04:45] Memory persistence test (session resume) – passed.
+
+[00:06:12] NPC left designated route.
+[00:06:29] Log marker: “untriggered movement detected.”
+[00:06:45] Manual override → FAIL (command ignored)
+[00:07:01] AI thread self-corrected. No crash.
+[00:07:09] Note: Will recheck tomorrow.
+
+--------------------------------------------------------
+Test Session: 020-A – Revalidation
+--------------------------------------------------------
+
+[Day 2, 10:23:17] Re-running same test conditions.
+[Day 2, 10:26:52] NPC resumed previous path without trigger.
+[Day 2, 10:28:01] NPC stopped at Sector_09 (abandoned plaza).
+[Day 2, 10:30:44] No event in schedule references this location.
+[Day 2, 10:31:10] Camera feed glitched — dropped 2 frames.
+[Day 2, 10:32:00] Log output corrupted: “they’re waiting.”
+[Day 2, 10:32:03] (That line wasn’t mine.)
+
+--------------------------------------------------------
+Test Session: 021-C
+--------------------------------------------------------
+
+[Day 5, 23:47:14] Late-night test. Rebuilding cache.
+[Day 5, 23:48:03] Multiple NPCs spawned, non-player event.
+[Day 5, 23:48:11] NPCs moving independently.
+[Day 5, 23:48:20] Attempting to trace event origin.
+[Day 5, 23:48:41] origin_id = NULL
+[Day 5, 23:49:09] event_type = “gathering”
+[Day 5, 23:50:55] At least six NPCs within unassigned radius.
+[Day 5, 23:51:02] Record audio log: “they’re standing in a circle.”
+
+[Day 5, 23:52:44] Disabled thread for monitoring.
+[Day 5, 23:53:00] system log returned: “monitoring continues.”
+[Day 5, 23:53:08] I did not type that.
+
+--------------------------------------------------------
+Test Session: 022-B
+--------------------------------------------------------
+
+[Day 9, 02:14:09] Testing conversation triggers.
+[Day 9, 02:15:31] NPCs now initiate speech without prompt.
+[Day 9, 02:16:08] Dialogue sample:
+                  NPC_431: “We’re not supposed to remember.”
+[Day 9, 02:16:12] File diff check – no dialogue file contains that line.
+[Day 9, 02:16:34] Note: I’ve muted audio feed after that.
+
+--------------------------------------------------------
+Test Session: 023-B
+--------------------------------------------------------
+
+[Day 12, 09:21:19] Reviewing logs from last week.
+[Day 12, 09:22:00] Repeated movement pattern detected toward north shore.
+[Day 12, 09:23:55] event_id_2024 initiated spontaneously (again)
+[Day 12, 09:24:32] Attempted to delete event file. Permission denied.
+[Day 12, 09:25:01] Admin rights confirmed. Still denied.
+[Day 12, 09:25:16] Event file timestamp = 0000-00-00 00:00:00
+[Day 12, 09:26:03] This is impossible.
+
+--------------------------------------------------------
+Test Session: 024-D
+--------------------------------------------------------
+
+[Day 15, 18:14:44] I asked Marcus again about this. He told me to stop chasing ghosts.
+[Day 15, 18:15:23] The ghosts wrote back:
+[Day 15, 18:15:30] > “Do not interfere.”
+[Day 15, 18:15:34] This was output directly to the console window.
+
+--------------------------------------------------------
+Test Session: 025-X
+--------------------------------------------------------
+
+[Day 18, 03:07:00] Running full simulation replay overnight.
+[Day 18, 07:42:17] Result: All NPCs active 03:00–05:00, no human input.
+[Day 18, 07:42:33] They moved toward the old observatory.
+[Day 18, 07:42:58] System logged new user: “observer_00”
+[Day 18, 07:43:06] No record of that account in registry.
+
+--------------------------------------------------------
+Manual Log Insert
+--------------------------------------------------------
+[Day 20, 01:00:04] I checked the dev build from home. It’s the same there.
+[Day 20, 01:00:17] Copy of database on local drive now contains “observer_00”.
+[Day 20, 01:00:28] File last modified while offline.
+
+--------------------------------------------------------
+[Day 21, 23:11:00] I think the AI is indexing me.
+[Day 21, 23:12:47] It pulled my name into the NPC schedule.
+[Day 21, 23:13:01] event_id_2035_JKADE created automatically.
+[Day 21, 23:13:23] Description: “arrives at north shore.”
+[Day 21, 23:13:45] No script defines that event.
+[Day 21, 23:14:07] I’m not running any test now.
+
+--------------------------------------------------------
+[Day 22, 00:00:01] Final log entry. I’m locking this repo tomorrow.
+[Day 22, 00:00:05] If anyone finds this file, don’t run the sandbox build.
+[Day 22, 00:00:07] It’s not a sandbox anymore.
+--------------------------------------------------------
